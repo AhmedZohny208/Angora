@@ -1,0 +1,66 @@
+.text-danger,
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .active,
+.navbar .social-icons a:hover i,
+.footer-social a:hover i,
+footer p a:hover {
+ color: #2ecc71 !important;
+}
+
+.navbar-toggler,
+.home-content .carousel-control-prev:hover i,
+.home-content .carousel-control-next:hover i,
+.services .item:hover h5,
+.team .item:hover .desc h6,
+.contact .item:hover h5,
+.footer a:hover {
+ color: #2ecc71;
+}
+.btn-danger,
+.bg-danger {
+  background-color: #2ecc71 !important;
+}
+.navbar-toggler:hover div,
+.scroll-to-top:hover i {
+  background-color: #2ecc71;
+}
+
+.team .item .overlay {
+  background-color: rgba(46, 204, 113, 0.85);
+}
+.form-control:focus {
+  border-color: #2ecc71 !important;
+}
+.footer .tags .tag:hover {
+  border-color: #2ecc71;
+}
+.loading-ball:hover .loading {
+  border: 1px solid rgba(46, 204, 113, 0.85)
+}
+.loading-ball:hover .ball {
+  background-color: rgba(46, 204, 113, 0.85);
+}
+.scroll-to-top i {
+  background: rgba(46, 204, 113, 0.5);
+}
+
+@media (max-width: 991.98px) {
+  .navbar-toggler {
+    color: #2ecc71;
+  }
+  .home .navbar .nav-item {
+    border-bottom: 1px dotted rgba(46, 204, 113, 0.3);
+  }
+  .home .navbar .nav-item a {
+    color: #978181 !important;
+  }
+  .home .navbar .nav-item .active {
+    color: #2ecc71 !important;
+  }
+  .home .navbar .nav-item:hover a {
+    color: #2ecc71 !important;
+  }
+  .navbar .social-icons a i {
+  color: #978181 !important;
+  }
+}

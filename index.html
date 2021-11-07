@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Angora</title>
+ <link rel="stylesheet" href="css/all.min.css">
+ <link rel="stylesheet" href="css/bootstrap.min.css" />
+ <link rel="stylesheet" href="css/slick.css">
+ <link rel="stylesheet" href="css/slick-theme.css">
+ <link rel="stylesheet" href="css/style.css" />
+ <link rel="stylesheet" href="css/website_themes/default_theme.css" id="website-theme" >
+ <script src="js/popper.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <!-- Start Home Section -->
+  <section class="home" id="home">
+
+    <nav class="navbar navbar-expand-lg bg-white py-3 position-fixed start-0 end-0 shadow" id="sliding-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo/default.png" alt="logo">
+        </a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto fs-7 fw-600">
+            <li class="nav-item px-2">
+              <a class="nav-link home active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link about" href="#about">About</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link team" href="#team">Team</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link info-box" href="#info-box">Projects</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link services" href="#services">Services</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link blog" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link contact" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div class="social-icons ms-4">
+            <a href="#"><i class="fab fa-twitter px-2"></i></a>
+            <a href="#"><i class="fab fa-facebook-f px-2"></i></a>
+            <a href="#"><i class="fab fa-instagram px-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <nav class="navbar navbar-expand-lg bg-transparent py-4 position-absolute top-0 start-0 end-0" id="normal-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo-white.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto fs-7 fw-600">
+            <li class="nav-item px-2">
+              <a class="nav-link home active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link about" href="#about">About</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link team" href="#team">Team</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link info-box" href="#info-box">Projects</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link services" href="#services">Services</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link blog" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link contact" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div class="social-icons ms-4">
+            <a href="#"><i class="fab fa-twitter text-white px-2"></i></a>
+            <a href="#"><i class="fab fa-facebook-f text-white px-2"></i></a>
+            <a href="#"><i class="fab fa-instagram text-white px-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  
+    <div class="home-content text-center text-heading">
+  
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner position-relative">
+  
+          <div class="carousel-item active w-100">
+            <div class="content position-relative">
+              <img src="images/slideshow-1.jpg" class="d-block w-100" alt="...">
+              <h3 class="fs-heading-title fw-bold text">We build<br/> great brands.</h3>
+            </div>
+          </div>
+          <div class="carousel-item w-100">
+            <div class="content position-relative">
+              <img src="images/slideshow-2.jpg" class="d-block w-100" alt="...">
+                <h3 class="fs-heading-title fw-bold text">Focused<br/> on strategy.</h3>
+            </div>
+          </div>
+          <div class="carousel-item w-100">
+            <div class="content position-relative">
+              <img src="images/slideshow-3.jpg" class="d-block w-100" alt="...">
+                <h3 class="fs-heading-title fw-bold text">Advanced in<br/> digital works.</h3>
+            </div>
+          </div>
+  
+          <div class="loading-ball">
+            <a href="#about">
+              <div class="loading"><div class="ball"></div></div>
+            </a>
+            
+          </div>
+
+        </div>
+  
+        <div class="leftPart">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <div class="btnContent">
+              <span class="carousel-control-prev-icon" aria-hidden="true">
+                <i class="fas fa-chevron-left position-relative"></i>
+              </span>
+              <span class="visually-hidden">Previous</span>
+              <div class="layer"></div>
+            </div>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <div class="btnContent">
+              <span class="carousel-control-next-icon" aria-hidden="true">
+                <i class="fas fa-chevron-right position-relative"></i>
+              </span>
+              <span class="visually-hidden">Next</span>
+              <div class="layer"></div>
+            </div>
+          </button>
+        </div>
+  
+      </div>
+    </div>
+
+  </section>
+ <!-- End Home Section -->
+
+ <!-- Start About Section -->
+
+ <section class="about py-8" id="about">
+  <div class="container">
+
+   <div class="heading text-center d-flex flex-column justify-content-center align-items-center position-relative mb-5">
+    <h2 class="heading-title fs-heading-title fw-bolder text-heading  text-center">A</h2>
+    <hr class="mb-3">
+    <p class="lead fs-5">Pellentesque elementum libero enim, eget gravida nunc laoreet et. Nullam ac enim<br/> auctor, fringilla risus at, imperdiet turpis. Pellentesque elementum libero enim.</p>
+   </div>
+
+   <div class="row">
+
+    <div class="col-md-7">
+     <p class="text-muted fs-7">Pellentesque vel elit egestas, pretium est ac, convallis orci. Vivamus sem nisl, tristique vel fringilla vitae, efficitur at eros. Duis aliquet aliquet pharetra. Suspendisse bibendum erat quis gravida pulvinar. Phasellus vel eros porta, blandit dui ac, viverra felis.</p>
+     <p class="text-muted fs-7">Nunc placerat iaculis pulvinar. Nullam auctor mauris sed urna posuere volutpat. Mauris ut dui sit amet elit fermentum fermentum. Fusce tincidunt diam at bibendum porta.</p>
+     <p class="text-muted fs-7">Aliquam nunc felis, sagittis eu purus non, interdum vehicula urna. Vivamus congue diam sapien, eu pellentesque ipsum ultricies quis.</p>
+    </div>
+
+    <div class="col-md-5">
+     <div class="skills">
+
+      <div class="skills-info fs-7 text-444 d-flex justify-content-between mb-2" style="width: 80%;">
+        <div class="course fw-600">Branding</div>
+        <div class="percentage">80%</div>
+      </div>
+      <div class="progress mb-3" style="height: 4px;">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+
+      <div class="skills-info fs-7 text-444 d-flex justify-content-between mb-2" style="width: 95%;">
+        <div class="course fw-600">Web Design</div>
+        <div class="percentage">95%</div>
+      </div>
+      <div class="progress mb-3" style="height: 4px;">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+
+      <div class="skills-info fs-7 text-444 d-flex justify-content-between mb-2" style="width: 85%;">
+        <div class="course fw-600">Graphic Design</div>
+        <div class="percentage">85%</div>
+      </div>
+      <div class="progress mb-3" style="height: 4px;">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+
+      <div class="skills-info fs-7 text-444 d-flex justify-content-between mb-2" style="width: 70%;">
+        <div class="course fw-600">Development</div>
+        <div class="percentage">70%</div>
+      </div>
+      <div class="progress mb-3" style="height: 4px;">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+
+     </div>
+    </div>
+
+   </div>
+
+  </div>
+ </section>
+
+ <!-- End About Section -->
+
+ <!-- Start Team Section -->
+ <section class="team py-8" id="team">
+  <div class="container">
+
+   <div class="heading text-center d-flex flex-column justify-content-center align-items-center position-relative mb-5">
+    <h2 class="heading-title fs-heading-title fw-bolder text-heading  text-center">O</h2>
+    <hr class="mb-3">
+    <p class="lead fs-5">Pellentesque elementum libero enim, eget gravida nunc laoreet et. Nullam ac enim<br/> auctor, fringilla risus at, imperdiet turpis. Pellentesque elementum libero enim.</p>
+   </div>
+
+   <div class="row">
+
+    <div class="col-md-3 col-sm-6">
+     <div class="item">
+      <div class="w-100 overflow-hidden rounded position-relative mb-3">
+       <img src="images/member-1.jpg" class="w-100" alt="Michael Broad">
+       <div class="overlay d-flex flex-column justify-content-center">
+        <div class="social-icons text-center">
+         <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+         <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+         <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+         <a href="#" class="text-white"><i class="fab fa-dribbble"></i></a>
+        </div>
+       </div>
+      </div>
+
+      <div class="desc text-center">
+       <h6 class="fw-600 mb-1">Michael Broad</h6>
+       <p class="text-muted fs-7">Web Designer</p>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+     <div class="item">
+      <div class="w-100 overflow-hidden rounded position-relative mb-3">
+       <img src="images/member-2.jpg" class="w-100" alt="Michael Broad">
+       <div class="overlay d-flex flex-column justify-content-center">
+        <div class="social-icons text-center">
+         <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+         <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+         <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+         <a href="#" class="text-white"><i class="fab fa-dribbble"></i></a>
+        </div>
+       </div>
+      </div>
+
+      <div class="desc text-center">
+       <h6 class="fw-600 mb-1">Jeannette Crow</h6>
+       <p class="text-muted fs-7">CEO Founder</p>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+     <div class="item">
+      <div class="w-100 overflow-hidden rounded position-relative mb-3">
+       <img src="images/member-3.jpg" class="w-100" alt="Michael Broad">
+       <div class="overlay d-flex flex-column justify-content-center">
+        <div class="social-icons text-center">
+         <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+         <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+         <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+         <a href="#" class="text-white"><i class="fab fa-dribbble"></i></a>
+        </div>
+       </div>
+      </div>
+
+      <div class="desc text-center">
+       <h6 class="fw-600 mb-1">Martin Lawrence</h6>
+       <p class="text-muted fs-7">App Developer</p>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+     <div class="item">
+      <div class="w-100 overflow-hidden rounded position-relative mb-3">
+       <img src="images/member-4.jpg" class="w-100" alt="Michael Broad">
+       <div class="overlay d-flex flex-column justify-content-center">
+        <div class="social-icons text-center">
+         <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+         <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+         <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+         <a href="#" class="text-white"><i class="fab fa-dribbble"></i></a>
+        </div>
+       </div>
+      </div>
+
+      <div class="desc text-center">
+       <h6 class="fw-600 mb-1">Isabella Dowson</h6>
+       <p class="text-muted fs-7">Creative Director</p>
+      </div>
+     </div>
+    </div>
+
+   </div>
+
+  </div>
+ </section>
+ <!-- End Team Section -->
+
+ <!-- Start Info Box -->
+ <section class="info-box py-5" id="info-box">
+  <div class="container">
+   <div class="row justify-content-between">
+
+    <div class="col-md-6 offset-md-1">
+     <h3>Do you have any ideas?</h3>
+    </div>
+ 
+    <div class="col-md-3">
+     <a href="" class="btn btn-danger lh-sm fs-7 btn-padding fw-bold">Contact Us</a>
+    </div>
+
+   </div>
+  </div>
+ </section>
+ <!-- End Info Box -->
+
+ <!-- Start Services Section -->
+ <section class="services bg-light py-8" id="services">
+  <div class="container">
+
+   <div class="heading text-center d-flex flex-column justify-content-center align-items-center position-relative mb-5">
+    <h2 class="heading-title fs-heading-title fw-bolder text-heading  text-center">S</h2>
+    <hr class="mb-3">
+    <p class="lead fs-5">Pellentesque elementum libero enim, eget gravida nunc laoreet et. Nullam ac enim<br/> auctor, fringilla risus at, imperdiet turpis. Pellentesque elementum libero enim.</p>
+   </div>
+
+   <div class="row">
+  
+    <div class="col-md-4 col-sm-6">
+     <div class="item">
+      <div class="row mb-4">
+       <div class="col-2">
+        <div class="pt-1"><i class="fas fa-laptop fa-2x text-danger"></i></div>
+       </div>
+       <div class="col-10">
+        <h5 class="text-title fw-600 mb-3">Responsive Layout</h5>
+        <p class="text-muted fs-7 lh-lg">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+     <div class="item">
+      <div class="row mb-4">
+       <div class="col-2">
+        <div class="pt-1"><i class="fas fa-pencil-ruler fa-2x text-danger"></i></div>
+       </div>
+       <div class="col-10">
+        <h5 class="text-title fw-600 mb-3">Modern Design</h5>
+        <p class="text-muted fs-7 lh-lg">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+     <div class="item">
+      <div class="row mb-4">
+       <div class="col-2">
+        <div class="pt-1"><i class="fab fa-font-awesome-flag fa-2x text-danger"></i></div>
+       </div>
+       <div class="col-10">
+        <h5 class="text-title fw-600 mb-3">Font Awesome Icons</h5>
+        <p class="text-muted fs-7 lh-lg">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+     <div class="item">
+      <div class="row mb-4">
+       <div class="col-2">
+        <div class="pt-1"><i class="far fa-id-card fa-2x text-danger"></i></div>
+       </div>
+       <div class="col-10">
+        <h5 class="text-title fw-600 mb-3">Ajax Portfolio</h5>
+        <p class="text-muted fs-7 lh-lg">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+     <div class="item">
+      <div class="row mb-4">
+       <div class="col-2">
+        <div class="pt-1"><i class="fas fa-cog fa-2x text-danger"></i></div>
+       </div>
+       <div class="col-10">
+        <h5 class="text-title fw-600 mb-3">Color Options</h5>
+        <p class="text-muted fs-7 lh-lg">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+     <div class="item">
+      <div class="row mb-4">
+       <div class="col-2">
+        <div class="pt-1"><i class="fas fa-headphones-alt fa-2x text-danger"></i></div>
+       </div>
+       <div class="col-10">
+        <h5 class="text-title fw-600 mb-3">Audio Support</h5>
+        <p class="text-muted fs-7 lh-lg">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+     <div class="item">
+      <div class="row mb-4">
+       <div class="col-2">
+        <div class="pt-1"><i class="fas fa-file-signature fa-2x text-danger"></i></div>
+       </div>
+       <div class="col-10">
+        <h5 class="text-title fw-600 mb-3">Well Documented</h5>
+        <p class="text-muted fs-7 lh-lg">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+     <div class="item">
+      <div class="row mb-4">
+       <div class="col-2">
+        <div class="pt-1"><i class="fas fa-video fa-2x text-danger"></i></div>
+       </div>
+       <div class="col-10">
+        <h5 class="text-title fw-600 mb-3">Background Videos</h5>
+        <p class="text-muted fs-7 lh-lg">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+     <div class="item">
+      <div class="row mb-4">
+       <div class="col-2">
+        <div class="pt-1"><i class="fas fa-sliders-h fa-2x text-danger"></i></div>
+       </div>
+       <div class="col-10">
+        <h5 class="text-title fw-600 mb-3">Intro Slider</h5>
+        <p class="text-muted fs-7 lh-lg">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+  
+   </div>
+
+  </div>
+ </section>
+ <!-- End Services Section -->
+
+ <!-- Start Blog Section -->
+ <section class="blog py-8 text-center" id="blog">
+  <div class="container">
+
+    <div class="heading text-center d-flex flex-column justify-content-center align-items-center position-relative mb-5">
+      <h2 class="heading-title fs-heading-title fw-bolder text-heading  text-center">C</h2>
+      <hr class="mb-3">
+      <p class="lead fs-5">Pellentesque elementum libero enim, eget gravida nunc laoreet et. Nullam ac enim<br/> auctor, fringilla risus at, imperdiet turpis. Pellentesque elementum libero enim.</p>
+    </div>
+
+
+    <div class="center mb-4">
+      <div>
+        <img src="images/client-1.png" alt="">
+      </div>
+      <div>
+        <img src="images/client-2.png" alt="">
+      </div>
+      <div>
+        <img src="images/client-3.png" alt="">
+      </div>
+      <div>
+        <img src="images/client-4.png" alt="">
+      </div>
+      <div>
+        <img src="images/client-5.png" alt="">
+      </div>
+      <div>
+        <img src="images/client-6.png" alt="">
+      </div>
+      <div>
+        <img src="images/client-7.png" alt="">
+      </div>
+      <div>
+        <img src="images/client-8.png" alt="">
+      </div>
+    </div>
+
+    <div class="center-content">
+
+      <div>
+        <div class="client-info mb-3">
+          <h6 class="fw-600 mb-1">Anthony Lee</h6>
+          <span class="text-muted fs-7">From Initech</span>
+        </div>
+        <div class="box">
+          <p class="text-muted fs-4">
+          <i class="fas fa-quote-left"></i>
+            Vivamus pellentesque dignissim neque, quis<br/> viverra diam venenatis sit amet. Donec dignissim<br/> turpis quis libero posuere auctor. 
+          <i class="fas fa-quote-right"></i>
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <div class="client-info mb-3">
+          <h6 class="fw-600 mb-1">Jane Doris</h6>
+          <span class="text-muted fs-7">From Acme</span>
+        </div>
+        <div class="box">
+          <p class="text-muted fs-4">
+          <i class="fas fa-quote-left"></i>
+            Vivamus pellentesque dignissim neque, quis<br/> viverra diam venenatis sit amet. Donec dignissim<br/> turpis quis libero posuere auctor. 
+          <i class="fas fa-quote-right"></i>
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <div class="client-info mb-3">
+          <h6 class="fw-600 mb-1">Jonathon Doe</h6>
+          <span class="text-muted fs-7">From Umbrella</span>
+        </div>
+        <div class="box">
+          <p class="text-muted fs-4">
+          <i class="fas fa-quote-left"></i>
+            Vivamus pellentesque dignissim neque, quis<br/> viverra diam venenatis sit amet. Donec dignissim<br/> turpis quis libero posuere auctor. 
+          <i class="fas fa-quote-right"></i>
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <div class="client-info mb-3">
+          <h6 class="fw-600 mb-1">Shane Catson</h6>
+          <span class="text-muted fs-7">From Massive</span>
+        </div>
+        <div class="box">
+          <p class="text-muted fs-4">
+          <i class="fas fa-quote-left"></i>
+            Vivamus pellentesque dignissim neque, quis<br/> viverra diam venenatis sit amet. Donec dignissim<br/> turpis quis libero posuere auctor. 
+          <i class="fas fa-quote-right"></i>
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <div class="client-info mb-3">
+          <h6 class="fw-600 mb-1">Hugh Tace</h6>
+          <span class="text-muted fs-7">From Capital</span>
+        </div>
+        <div class="box">
+          <p class="text-muted fs-4">
+          <i class="fas fa-quote-left"></i>
+            Vivamus pellentesque dignissim neque, quis<br/> viverra diam venenatis sit amet. Donec dignissim<br/> turpis quis libero posuere auctor. 
+          <i class="fas fa-quote-right"></i>
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <div class="client-info mb-3">
+          <h6 class="fw-600 mb-1">Hugh Tace</h6>
+          <span class="text-muted fs-7">From Capital</span>
+        </div>
+        <div class="box">
+          <p class="text-muted fs-4">
+          <i class="fas fa-quote-left"></i>
+            Vivamus pellentesque dignissim neque, quis<br/> viverra diam venenatis sit amet. Donec dignissim<br/> turpis quis libero posuere auctor. 
+          <i class="fas fa-quote-right"></i>
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <div class="client-info mb-3">
+          <h6 class="fw-600 mb-1">Hugh Tace</h6>
+          <span class="text-muted fs-7">From Capital</span>
+        </div>
+        <div class="box">
+          <p class="text-muted fs-4">
+          <i class="fas fa-quote-left"></i>
+            Vivamus pellentesque dignissim neque, quis<br/> viverra diam venenatis sit amet. Donec dignissim<br/> turpis quis libero posuere auctor. 
+          <i class="fas fa-quote-right"></i>
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <div class="client-info mb-3">
+          <h6 class="fw-600 mb-1">Hugh Tace</h6>
+          <span class="text-muted fs-7">From Capital</span>
+        </div>
+        <div class="box">
+          <p class="text-muted fs-4">
+          <i class="fas fa-quote-left"></i>
+            Vivamus pellentesque dignissim neque, quis<br/> viverra diam venenatis sit amet. Donec dignissim<br/> turpis quis libero posuere auctor. 
+          <i class="fas fa-quote-right"></i>
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+
+
+  </div>
+ </section>
+ <!-- End Blog Section -->
+
+ <!-- Start Contact Section -->
+ <section class="contact bg-light py-8" id="contact">
+  <div class="container">
+
+   <div class="heading text-center d-flex flex-column justify-content-center align-items-center position-relative mb-5">
+    <h2 class="heading-title fs-heading-title fw-bolder text-heading  text-center">G</h2>
+    <hr class="mb-3">
+    <p class="lead fs-5">Pellentesque elementum libero enim, eget gravida nunc laoreet et. Nullam ac enim<br/> auctor, fringilla risus at, imperdiet turpis. Pellentesque elementum libero enim.</p>
+   </div>
+
+   <div class="row g-5">
+
+    <div class="col-md-6">
+     <h3 class="mb-4 fw-600">Get answers and advices from professional consultants.</h3>
+
+     <div class="row item border-bottom py-3">
+      <div class="col-1">
+        <div class="pt-1"><i class="far fa-map fa-2x text-danger"></i></div>
+      </div>
+      <div class="col-11 ps-4">
+       <h5 class="fs-5 fw-600 mb-1">Address</h5>
+       <p class="text-muted fs-7 lh-lg">1650 Lombard Street, San Francisco, CA 94123</p>
+      </div>
+     </div>
+     <div class="row item border-bottom py-3">
+      <div class="col-1">
+        <div class="pt-1"><i class="fas fa-mobile-alt fa-2x text-danger"></i></div>
+      </div>
+      <div class="col-11 ps-4">
+       <h5 class="fs-5 fw-600 mb-1">Phone</h5>
+       <p class="text-muted fs-7 lh-lg">+1 (415) 876-3250 / +1 (415) 876-3251</p>
+      </div>
+     </div>
+     <div class="row item py-3">
+      <div class="col-1">
+        <div class="pt-1"><i class="far fa-envelope fa-2x text-danger"></i></div>
+      </div>
+      <div class="col-11 ps-4">
+       <h5 class="fs-5 fw-600 mb-1">Say Hello</h5>
+       <p class="text-muted fs-7 lh-lg">[email protected]</p>
+      </div>
+     </div>
+
+    </div>
+
+    <div class="col-md-6">
+     <form>
+      <div class="mb-3">
+        <input type="text" class="form-control" id="name" placeholder="Your Name">
+      </div>
+      <div class="mb-3">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email">
+      </div>
+      <div class="mb-3">
+        <input type="text" class="form-control" id="name" placeholder="Phone">
+      </div>
+      <div class="mb-4">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Message"></textarea>
+      </div>
+      <div class="submit-btn text-center">
+        <button type="submit" class="btn btn-danger lh-sm fs-7 btn-padding fw-bold"><i class="fas fa-location-arrow pe-2"></i>Send Message</button>
+      </div>
+     </form>
+    </div>
+
+   </div>
+
+  </div>
+ </section>
+ <!-- End Contact Section -->
+
+  <!-- Start Footer Section -->
+  <section class="footer position-relative">
+    <div class="overlay py-6">
+    <div class="container">
+
+      <!-- Scroll to top button -->
+      <a href="#home">
+        <div class="scroll-to-top text-center rounded-circle position-absolute top-0 start-50" id="scroll-to-top"> 
+          <i class="fa fa-angle-up fa-lg"></i>
+        </div>
+      </a>
+      <!-- Scroll to top button -->
+
+      <div class="text-center mb-5">
+      <img src="images/icon.png" alt="client-7">
+      </div>
+  
+      <div class="row">
+
+      <div class="col-md-3 col-sm-6 text-footer">
+        <h5 class="text-white fw-600 mb-4">Contact Info</h5>
+        <p class="fs-7">1650 Lombard Street, <br/>San Francisco, CA 94123</p>
+        <p class="fs-7">+1 (415) 876-3250 <br/> [email protected]</p>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <h5 class="text-white fw-600 mb-4">Useful Links</h5>
+        <ul class="m-0 p-0 fs-7 lh-lg">
+        <li><a href="#" class="text-footer">Support</a></li>
+        <li><a href="#" class="text-footer">Privacy Policy</a></li>
+        <li><a href="#" class="text-footer">Terms & Conditions</a></li>
+        <li><a href="#" class="text-footer">Affiliate Program</a></li>
+        <li><a href="#" class="text-footer">Careers</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <h5 class="text-white fw-600 mb-4">Recent Posts</h5>
+        <ul class="m-0 p-0 fs-7 lh-lg">
+        <li><a href="#" class="text-footer">Sunset in Venice</a></li>
+        <li><a href="#" class="text-footer">Aerial View of Village</a></li>
+        <li><a href="#" class="text-footer">Lighted Concrete City</a></li>
+        <li><a href="#" class="text-footer">The Little Ghost</a></li>
+        <li><a href="#" class="text-footer">Royal Oats ft. Waldo</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="col-md-3 col-sm-6 recent-posts">
+        <h5 class="text-white fw-600 mb-4">Recent Posts</h5>
+        <div class="tags fs-7">
+          <a href="#" class="tag text-footer">HTML5</a>
+          <a href="#" class="tag text-footer">CSS3</a>
+          <a href="#" class="tag text-footer">jQuery</a>
+          <a href="#" class="tag text-footer">UX / UI</a>
+          <a href="#" class="tag text-footer">Web</a>
+          <a href="#" class="tag text-footer">Graphic</a>
+          <a href="#" class="tag text-footer">Design</a>
+          <a href="#" class="tag text-footer">Development</a>
+        </div>
+        <div class="clr"></div>
+      </div>
+      </div>
+
+    </div>
+    </div>
+  </section>
+  <!-- End Footer Section -->
+
+  <!-- Start Final Footer -->
+  <footer class="py-4">
+    <div class="container">
+    <div class="row">
+
+      <div class="col-6">
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-twitter text-white"></i></a>
+        <a href="#"><i class="fab fa-facebook-f text-white"></i></a>
+        <a href="#"><i class="fab fa-instagram text-white"></i></a>
+        <a href="#"><i class="fab fa-dribbble text-white"></i></a>
+        <a href="#"><i class="fab fa-pinterest text-white"></i></a>
+      </div>
+      </div>
+
+      <div class="col-6 text-footer fs-7">
+      <p class="text-md-end mb-0">Copyright &copy; 2020 <a href="#" class="fw-600 text-white">Angora</a></p>
+      </div>
+
+    </div>
+    </div>
+  </footer>
+  <!-- Start Final Footer -->
+
+  <!-- Start Fixed Menu -->
+    <div class="fixed-menu">
+      <div class="setting-btn">
+        <div><i class="fas fa-cogs"></i></div>
+      </div>
+      <h5 class="text-center">Change Colors</h5>
+      <div class="change-colors d-flex justify-content-between flex-wrap">
+        <div class="color rounded-circle me-1" data-color='turquoise'></div>
+        <div class="color rounded-circle me-1" data-color='emerald'></div>
+        <div class="color rounded-circle me-1" data-color='peterRiver'></div>
+        <div class="color rounded-circle me-1" data-color='amethyst'></div>
+        <div class="color rounded-circle me-1" data-color='wetAsphalt'></div>
+        <div class="color rounded-circle me-1" data-color='sunFlower'></div>
+        <div class="color rounded-circle me-1" data-color='carrot'></div>
+        <div class="color rounded-circle me-1" data-color='alizarin'></div>
+        <div class="color rounded-circle me-1" data-color='asbestos'></div>
+        <div class="color rounded-circle me-1" data-color='pumpkin'></div>
+      </div>
+    </div>
+  <!-- End Fixed Menu -->
+
+  <!-- Start Loading Page -->
+  <div id="loadingPage" class=" justify-content-center align-items-center">
+    <div class="spinner">
+      <div class="dot1"></div>
+      <div class="dot2"></div>
+    </div>
+  </div>
+  <!-- End Loading Page -->
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
